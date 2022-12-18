@@ -1,0 +1,186 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+
+.wraper {
+	background: grey;
+	max-width: 1000px;
+   margin: auto;
+   background: rgb(32, 40, 53);
+}
+.header{
+	max-width: 100%;
+	margin: auto;
+	margin-left:20px;
+}
+.photo_holder{}
+.photo{
+	margin-top: 20px;
+	width: 240px;
+	height: 250px;
+	border-radius: 8%;
+}
+h1{
+	color: white;
+	font-size: 38px;
+	font-weight: 800;
+}
+.profession{
+	text-transform: uppercase;
+	font-size: 20px;
+	color:rgb(244, 138, 29);
+}
+.contact_information{
+	padding-top:30px;
+	color:white;
+	margin: auto;
+	margin-left:20px;
+}
+.web {
+		text-transform: uppercase;
+		color: white;
+}
+.web .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+}
+.web li{
+	padding-bottom:10px;
+	padding-left: 5px;
+}
+.facebook{
+	display: inline-block;
+	padding-left: 10px;
+}
+.link_logo{
+	width: 30px;
+	height: 30px;
+}
+.linkedin {
+	display: inline-block;
+	padding-left: 5px;
+}
+ul li a {
+	color: white;
+}
+ul li:first-child{
+	font-size:20px;
+	padding-left: 0;
+	text-transform: uppercase;
+
+}
+.contact-me{
+	margin-top:15px;
+}
+.contacts li{
+	padding-bottom:10px;
+	padding-left: 5px;
+}
+.contacts .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+}
+address {
+	display: inline-block;
+	text-transform: inherit;
+	}
+
+.about_me {
+	padding-top:20px;
+	color:white;
+	margin: auto;
+	margin-left:20px;
+}
+.about_me li{
+	padding-bottom:10px;
+	padding-left: 5px;
+}
+.about_me .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+}
+.experience{
+	padding-top:20px;
+}
+.job li{
+	color:white;
+	margin: auto;
+	margin-left:20px;
+	padding-bottom: 10px;
+}
+.job .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.education{
+	padding-top:20px;
+}
+.path li{
+	color:white;
+	margin: auto;
+	margin-left:20px;
+	padding-bottom: 10px;
+}
+.path .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.skills {
+	padding-top:20px;}
+.skills_description li{	
+	color:white;
+	margin: auto;
+	margin-left:20px;
+	padding-bottom: 10px;
+}
+.skills_description .white_line{
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.footer{
+	padding:30px 0 0 20px;
+	color: white;
+	text-transform: inherit;
+	font-size: 14px;
+}
+.footer_line {
+	width: 100%;
+	height: 1px;
+	background: white;
+	opacity: 0.7;
+}
+.rs_logo{
+	width 80px;
+	height: 30px;
+}
+.github_image{
+	width 40px;
+	height: 40px;}
